@@ -6,9 +6,9 @@ import MidSection from '../../components/for preview/MidSection'
 function PreviewPage() {
   return (
     <>
-      {/* <TopSection/>
+      <TopSection/>
       <MidSection/>
-      <ProverbSection/> */}
+      <ProverbSection/>
     </>
   )
 }

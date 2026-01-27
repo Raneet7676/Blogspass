@@ -1,29 +1,23 @@
 import React from 'react'
-import Logo from '../../UI/Logo'
+import Logo from '../../UI/Logo';
+import arrow from '../../assets/PNG section/arrow.svg';
+import '../../UI/CSS files/TopSection.css';
 
-const sty = {
-    display : "flex"
-};
 
 function TopSection() {
   return (
     <>
-        <div className="frame" style={sty.display}>
-            <div>
-                <Logo/>
-            </div>
-            <div className="text">
+        <div className="frame" style={{display : "flex"}}>
+                <Logo />
                 <pre>
                     we don’t just post blogs <br/>
-                    we relive memories,.... <br/>
+                    we re-live memories,.... <br/>
                     share your experience, <br/>
-                        <u>make them feel them</u>..!!
+                        <u>make them feel again</u>..!!
                 </pre>
-            </div>
         </div>
-
         <button>
-            EXPLORE MORE  <img src="" alt='#arrow-to-right' />
+            EXPLORE MORE  <img src={arrow} alt='#arrow-to-right' />
         </button>
     </>
   )

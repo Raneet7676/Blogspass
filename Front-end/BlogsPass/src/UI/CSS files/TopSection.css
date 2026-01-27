@@ -1,0 +1,42 @@
+.frame {
+    gap: 40vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    border: 2px solid black;
+    height: 300px;
+    min-height: 200px;
+}
+
+button{
+    transform: translateX(45vh);
+    margin: 10px;
+    height: 8vh;
+    width: 25vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background-color: rgb(7, 141, 219);
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: black;
+    color:rgb(7, 141, 219); ;
+}
+
+button img{
+    height: 30px;
+    width: 30px;
+}
+
+button img:hover{
+    background-color:rgb(7, 141, 219);
+    color:black ;
+}
+
+.frame pre{
+    font-size: large;
+}
