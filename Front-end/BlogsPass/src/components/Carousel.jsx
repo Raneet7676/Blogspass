@@ -34,7 +34,7 @@ const Carousel = () => {
   }, [index]);
 
   return (
-    <div style={styles.carousel}>
+    <div style={styles.carousel} className="carousel">
       <div
         ref={trackRef}
         style={{

@@ -9,7 +9,7 @@
 }
 
 button{
-    transform: translateX(45vh);
+    transform: translateX(300%);
     margin: 10px;
     height: 8vh;
     width: 25vh;

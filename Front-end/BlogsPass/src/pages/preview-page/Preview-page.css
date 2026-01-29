@@ -1,0 +1,39 @@
+/*  proverb section starts*/
+.divisions{
+    display: flex;
+    gap: 20vh;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border: 2px solid black;
+}
+
+.slot{
+    padding: 5px;
+    border: 2px solid black;
+    height: 175px;
+}
+
+.slot img{
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* proverb sections ends */
+
+/* mid section starts */
+
+.block{
+    /* height: 16vh;
+    width: 55vh; */
+    margin-top: 5px;
+}
+
+.partition{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* mid section ends */

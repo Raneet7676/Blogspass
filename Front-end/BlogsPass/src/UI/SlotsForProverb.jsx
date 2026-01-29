@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../pages/preview-page/Preview-Page.css'
 
-function SlotsForProverb({person , proverb}) {
+function SlotsForProverb({person}) {
   return (
     <div className="slot">
         <img src={person} alt="#person-img" />
-        <pre>{proverb}</pre>
+        <pre>
+          ansdjajdfajbfjwaf <br /> 
+          janfnawndnakndkawnk
+        </pre>
     </div>
   )
 }
