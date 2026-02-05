@@ -1,0 +1,78 @@
+
+/* carousel in home page starts here */
+.carousel {
+  height: 24vh;
+  width: 40vh;
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+/* sliding container */
+.carousel-track {
+  display: flex;
+  height: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-track img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* navigation buttons */
+.nav-btn {
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  font-size: 22px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.nav-btn.left {
+  left: 10px;
+}
+
+.nav-btn.right {
+  right: 10px;
+}
+
+.nav-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+/* carousel in home page ends here */
+
+/* upload section starts here */
+.upload-section{
+  width: 75vw;
+  height: 50vh;
+  border: 2px dotted black;
+  display: flex;
+  gap: 10vw;
+}
+
+.Current-upload{
+  height: 85%;
+  width: 50%;
+  border: 2px dotted rgb(231, 0, 0);
+  margin: auto 20px;
+
+}
+
+.PS{
+  width: 20vw;
+  height: 20vh;
+  border: 2px dotted black;
+  margin: 3vh 20px;
+
+}
+/* upload section ends here */
