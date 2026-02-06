@@ -1,11 +1,12 @@
 
 /* carousel in home page starts here */
 .carousel {
-  height: 24vh;
-  width: 40vh;
+  height: 60vh;
+  width: 95%;
   border: 2px solid black;
   overflow: hidden;
   position: relative;
+  margin: auto auto;
 }
 
 /* sliding container */
@@ -18,7 +19,7 @@
 .carousel-track img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:fill;
   flex-shrink: 0;
 }
 
@@ -53,26 +54,62 @@
 
 /* upload section starts here */
 .upload-section{
-  width: 75vw;
-  height: 50vh;
+  width: 95%;
+  height: 60vh;
   border: 2px dotted black;
   display: flex;
   gap: 10vw;
+  background: radial-gradient(
+  circle,
+  #608E99 0%,
+  #6EA4B1 28%,
+  #9FEDFF 59%,
+  #7DB9C8 77%
+);
+  margin: 5vh auto;
+
 }
 
 .Current-upload{
-  height: 85%;
+  height: 80%;
   width: 50%;
   border: 2px dotted rgb(231, 0, 0);
-  margin: auto 20px;
+  margin: auto 4vw;
 
 }
 
 .PS{
-  width: 20vw;
-  height: 20vh;
+  width: 25vw;
+  height: 35%;
   border: 2px dotted black;
-  margin: 3vh 20px;
+  margin: 6vh 5vw;
 
 }
 /* upload section ends here */
+
+/* Post section starts here */
+
+.Post{
+  width: 95%;
+  height: 50%;
+  background: linear-gradient(
+  90deg,
+  #A3D6FF 0%,
+  #486378 13%,
+  #A3D6FF 50%,
+  #486378 86%,
+  #A3D6FF 100%);
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs-container{
+  width: 25vw;
+  height: 30vh;
+  background-color: white;
+  margin: 5vh auto;
+  flex-direction: column;
+}
+
+/* Post section ends here */
